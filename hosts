@@ -1,0 +1,12 @@
+---
+all:
+  hosts:
+  children:
+    servers:
+      hosts:
+        cent3:
+          vars:
+            number: file3
+        cent2:
+          vars:
+            number: file2
